@@ -1,16 +1,28 @@
+import java.util.Collections;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.TimeZone;
 import java.util.Locale;
 
 public class TimeZoneList
 {
+	static ArrayList<String> list;
+
 	public static void main(String[] args)
 	{
 		TimeZoneList m = new TimeZoneList();
+		list = new ArrayList<String>();
 
 		for(String tzid : TimeZone.getAvailableIDs())
 		{
 			m.print(tzid);
+		}
+
+		Collections.sort(list);
+
+		for(String elm : list)
+		{
+			System.out.println(elm);
 		}
 	}
 
@@ -19,10 +31,10 @@ public class TimeZoneList
 		TimeZone tz = TimeZone.getTimeZone(tzid);
 		Calendar cal = Calendar.getInstance(tz);
 
-		System.out.println( tzid + "," + tz.getDisplayName(false, TimeZone.LONG, Locale.US) + "," + minutes(cal, false) );
+		list.add( tzid + "," + tz.getDisplayName(false, TimeZone.LONG, Locale.US) + "," + minutes(cal, false) );
 		if(cal.get(Calendar.DST_OFFSET)!=0)
 		{
-			System.out.println( tzid + "," + tz.getDisplayName(true, TimeZone.LONG, Locale.US) + "," + minutes(cal, true) );
+			list.add( tzid + "," + tz.getDisplayName(true, TimeZone.LONG, Locale.US) + "," + minutes(cal, true) );
 		}
 	}
 
