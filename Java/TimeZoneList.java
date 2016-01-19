@@ -6,31 +6,29 @@ import java.util.TimeZone;
 import java.util.Locale;
 
 public class TimeZoneList {
-	static List<String> list;
-
 	public static void main(String[] args) {
 		TimeZoneList m = new TimeZoneList();
-		list = new ArrayList<String>();
-
-		for (String tzid : TimeZone.getAvailableIDs()) {
-			m.print(tzid);
-		}
-
+		List<String> list = m.getList();
 		Collections.sort(list);
-
 		for (String elm : list) {
 			System.out.println(elm);
 		}
 	}
 
-	private void print(String tzid) {
-		TimeZone tz = TimeZone.getTimeZone(tzid);
-		Calendar cal = Calendar.getInstance(tz);
+	private List<String> getList() {
+		List<String> list = new ArrayList<String>();
 
-		list.add(tzid + "," + tz.getDisplayName(false, TimeZone.LONG, Locale.US) + "," + minutes(cal, false));
-		if (cal.get(Calendar.DST_OFFSET)!=0) {
-			list.add(tzid + "," + tz.getDisplayName(true, TimeZone.LONG, Locale.US) + "," + minutes(cal, true));
+		for (String tzid : TimeZone.getAvailableIDs()) {
+			TimeZone tz = TimeZone.getTimeZone(tzid);
+			Calendar cal = Calendar.getInstance(tz);
+
+			list.add(tzid + "," + tz.getDisplayName(false, TimeZone.LONG, Locale.US) + "," + minutes(cal, false));
+			if (cal.get(Calendar.DST_OFFSET)!=0) {
+				list.add(tzid + "," + tz.getDisplayName(true, TimeZone.LONG, Locale.US) + "," + minutes(cal, true));
+			}
 		}
+
+		return list;
 	}
 
 	private String minutes(Calendar cal, boolean dst) {
