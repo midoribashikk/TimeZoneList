@@ -119,6 +119,7 @@ America/Edmonton,Mountain Standard Time,-7:00
 America/Eirunepe,Acre Time,-5:00
 America/El_Salvador,Central Standard Time,-6:00
 America/Ensenada,Pacific Standard Time,-8:00
+America/Fort_Nelson,Mountain Standard Time,-7:00
 America/Fort_Wayne,Eastern Standard Time,-5:00
 America/Fortaleza,Brasilia Time,-3:00
 America/Glace_Bay,Atlantic Standard Time,-4:00
@@ -574,7 +575,6 @@ Pacific/Easter,Easter Is. Time,-5:00
 Pacific/Efate,Vanuatu Time,+11:00
 Pacific/Enderbury,Phoenix Is. Time,+13:00
 Pacific/Fakaofo,Tokelau Time,+13:00
-Pacific/Fiji,Fiji Summer Time,+13:00
 Pacific/Fiji,Fiji Time,+12:00
 Pacific/Funafuti,Tuvalu Time,+12:00
 Pacific/Galapagos,Galapagos Time,-6:00
@@ -591,7 +591,7 @@ Pacific/Marquesas,Marquesas Time,-9:30
 Pacific/Midway,Samoa Standard Time,-11:00
 Pacific/Nauru,Nauru Time,+12:00
 Pacific/Niue,Niue Time,-11:00
-Pacific/Norfolk,Norfolk Time,+11:30
+Pacific/Norfolk,Norfolk Time,+11:00
 Pacific/Noumea,New Caledonia Time,+11:00
 Pacific/Pago_Pago,Samoa Standard Time,-11:00
 Pacific/Palau,Palau Time,+9:00
