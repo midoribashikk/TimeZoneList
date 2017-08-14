@@ -242,6 +242,7 @@ America/Pangnirtung,Eastern Daylight Time,-4:00
 America/Pangnirtung,Eastern Standard Time,-5:00
 America/Paramaribo,Suriname Time,-3:00
 America/Phoenix,Mountain Standard Time,-7:00
+America/Port-au-Prince,Eastern Daylight Time,-4:00
 America/Port-au-Prince,Eastern Standard Time,-5:00
 America/Port_of_Spain,Atlantic Standard Time,-4:00
 America/Porto_Acre,Acre Time,-5:00
@@ -261,7 +262,6 @@ America/Rosario,Argentine Time,-3:00
 America/Santa_Isabel,Pacific Daylight Time,-7:00
 America/Santa_Isabel,Pacific Standard Time,-8:00
 America/Santarem,Brasilia Time,-3:00
-America/Santiago,Chile Summer Time,-3:00
 America/Santiago,Chile Time,-4:00
 America/Santo_Domingo,Atlantic Standard Time,-4:00
 America/Sao_Paulo,Brasilia Time,-3:00
@@ -496,9 +496,7 @@ Canada/Pacific,Pacific Standard Time,-8:00
 Canada/Saskatchewan,Central Standard Time,-6:00
 Canada/Yukon,Pacific Daylight Time,-7:00
 Canada/Yukon,Pacific Standard Time,-8:00
-Chile/Continental,Chile Summer Time,-3:00
 Chile/Continental,Chile Time,-4:00
-Chile/EasterIsland,Easter Is. Summer Time,-5:00
 Chile/EasterIsland,Easter Is. Time,-6:00
 Cuba,Cuba Daylight Time,-4:00
 Cuba,Cuba Standard Time,-5:00
@@ -727,7 +725,6 @@ Pacific/Auckland,New Zealand Standard Time,+12:00
 Pacific/Bougainville,Bougainville Standard Time,+11:00
 Pacific/Chatham,Chatham Standard Time,+12:45
 Pacific/Chuuk,Chuuk Time,+10:00
-Pacific/Easter,Easter Is. Summer Time,-5:00
 Pacific/Easter,Easter Is. Time,-6:00
 Pacific/Efate,Vanuatu Time,+11:00
 Pacific/Enderbury,Phoenix Is. Time,+13:00
@@ -774,17 +771,23 @@ ROK,Korea Standard Time,+9:00
 SST,Solomon Is. Time,+11:00
 Singapore,Singapore Time,+8:00
 SystemV/AST4,Atlantic Standard Time,-4:00
+SystemV/AST4ADT,Atlantic Daylight Time,-3:00
 SystemV/AST4ADT,Atlantic Standard Time,-4:00
 SystemV/CST6,Central Standard Time,-6:00
+SystemV/CST6CDT,Central Daylight Time,-5:00
 SystemV/CST6CDT,Central Standard Time,-6:00
 SystemV/EST5,Eastern Standard Time,-5:00
+SystemV/EST5EDT,Eastern Daylight Time,-4:00
 SystemV/EST5EDT,Eastern Standard Time,-5:00
 SystemV/HST10,Hawaii Standard Time,-10:00
 SystemV/MST7,Mountain Standard Time,-7:00
+SystemV/MST7MDT,Mountain Daylight Time,-6:00
 SystemV/MST7MDT,Mountain Standard Time,-7:00
 SystemV/PST8,Pacific Standard Time,-8:00
+SystemV/PST8PDT,Pacific Daylight Time,-7:00
 SystemV/PST8PDT,Pacific Standard Time,-8:00
 SystemV/YST9,Alaska Standard Time,-9:00
+SystemV/YST9YDT,Alaska Daylight Time,-8:00
 SystemV/YST9YDT,Alaska Standard Time,-9:00
 Turkey,Eastern European Time,+3:00
 UCT,Coordinated Universal Time,+0:00
