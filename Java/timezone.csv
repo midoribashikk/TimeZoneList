@@ -1,4 +1,5 @@
 ACT,Australian Central Standard Time (Northern Territory),+9:30
+AET,Australian Eastern Daylight Time (New South Wales),+11:00
 AET,Australian Eastern Standard Time (New South Wales),+10:00
 AGT,Argentine Time,-3:00
 ART,Eastern European Time,+2:00
@@ -84,6 +85,7 @@ America/Argentina/Tucuman,Argentina Standard Time,-3:00
 America/Argentina/Ushuaia,Argentina Standard Time,-3:00
 America/Aruba,Atlantic Standard Time,-4:00
 America/Asuncion,Paraguay Standard Time,-4:00
+America/Asuncion,Paraguay Summer Time,-3:00
 America/Atikokan,Eastern Standard Time,-5:00
 America/Atka,Hawaii Daylight Time,-9:00
 America/Atka,Hawaii Standard Time,-10:00
@@ -102,6 +104,7 @@ America/Buenos_Aires,Argentina Standard Time,-3:00
 America/Cambridge_Bay,Mountain Daylight Time,-6:00
 America/Cambridge_Bay,Mountain Standard Time,-7:00
 America/Campo_Grande,Amazon Standard Time,-4:00
+America/Campo_Grande,Amazon Summer Time,-3:00
 America/Cancun,Eastern Standard Time,-5:00
 America/Caracas,Venezuela Time,-4:00
 America/Catamarca,Argentina Standard Time,-3:00
@@ -116,6 +119,7 @@ America/Cordoba,Argentina Standard Time,-3:00
 America/Costa_Rica,Central Standard Time,-6:00
 America/Creston,Mountain Standard Time,-7:00
 America/Cuiaba,Amazon Standard Time,-4:00
+America/Cuiaba,Amazon Summer Time,-3:00
 America/Curacao,Atlantic Standard Time,-4:00
 America/Danmarkshavn,Greenwich Mean Time,+0:00
 America/Dawson,Pacific Daylight Time,-7:00
@@ -267,6 +271,7 @@ America/Santiago,Chile Standard Time,-4:00
 America/Santiago,Chile Summer Time,-3:00
 America/Santo_Domingo,Atlantic Standard Time,-4:00
 America/Sao_Paulo,Brasilia Standard Time,-3:00
+America/Sao_Paulo,Brasilia Summer Time,-2:00
 America/Scoresbysund,East Greenland Standard Time,-1:00
 America/Scoresbysund,East Greenland Summer Time,+0:00
 America/Shiprock,Mountain Daylight Time,-6:00
@@ -322,7 +327,6 @@ Arctic/Longyearbyen,Central European Summer Time,+2:00
 Asia/Aden,Arabian Standard Time,+3:00
 Asia/Almaty,East Kazakhstan Time,+6:00
 Asia/Amman,Eastern European Standard Time,+2:00
-Asia/Amman,Eastern European Summer Time,+3:00
 Asia/Anadyr,Magadan Standard Time,+12:00
 Asia/Aqtau,West Kazakhstan Time,+5:00
 Asia/Aqtobe,West Kazakhstan Time,+5:00
@@ -346,17 +350,14 @@ Asia/Chungking,China Standard Time,+8:00
 Asia/Colombo,India Standard Time,+5:30
 Asia/Dacca,Bangladesh Time,+6:00
 Asia/Damascus,Eastern European Standard Time,+2:00
-Asia/Damascus,Eastern European Summer Time,+3:00
 Asia/Dhaka,Bangladesh Standard Time,+6:00
 Asia/Dili,East Timor Time,+9:00
 Asia/Dubai,Gulf Standard Time,+4:00
 Asia/Dushanbe,Tajikistan Time,+5:00
 Asia/Famagusta,GMT+03:00,+3:00
 Asia/Gaza,Eastern European Standard Time,+2:00
-Asia/Gaza,Eastern European Summer Time,+3:00
 Asia/Harbin,China Standard Time,+8:00
 Asia/Hebron,Eastern European Standard Time,+2:00
-Asia/Hebron,Eastern European Summer Time,+3:00
 Asia/Ho_Chi_Minh,Indochina Time,+7:00
 Asia/Hong_Kong,Hong Kong Standard Time,+8:00
 Asia/Hovd,Hovd Standard Time,+7:00
@@ -444,33 +445,50 @@ Atlantic/Reykjavik,Greenwich Mean Time,+0:00
 Atlantic/South_Georgia,South Georgia Time,-2:00
 Atlantic/St_Helena,Greenwich Mean Time,+0:00
 Atlantic/Stanley,Falkland Islands Standard Time,-3:00
+Australia/ACT,Australian Eastern Daylight Time (New South Wales),+11:00
 Australia/ACT,Australian Eastern Standard Time (New South Wales),+10:00
+Australia/Adelaide,Australian Central Daylight Time,+10:30
 Australia/Adelaide,Australian Central Standard Time,+9:30
 Australia/Brisbane,Australian Eastern Standard Time,+10:00
+Australia/Broken_Hill,Australian Central Daylight Time,+10:30
 Australia/Broken_Hill,Australian Central Standard Time,+9:30
+Australia/Canberra,Australian Eastern Daylight Time (New South Wales),+11:00
 Australia/Canberra,Australian Eastern Standard Time (New South Wales),+10:00
+Australia/Currie,Australian Eastern Daylight Time,+11:00
 Australia/Currie,Australian Eastern Standard Time,+10:00
 Australia/Darwin,Australian Central Standard Time,+9:30
 Australia/Eucla,Australian Central Western Standard Time,+8:45
+Australia/Hobart,Australian Eastern Daylight Time,+11:00
 Australia/Hobart,Australian Eastern Standard Time,+10:00
+Australia/LHI,Lord Howe Daylight Time,+11:00
 Australia/LHI,Lord Howe Standard Time,+10:30
 Australia/Lindeman,Australian Eastern Standard Time,+10:00
+Australia/Lord_Howe,Lord Howe Daylight Time,+11:00
 Australia/Lord_Howe,Lord Howe Standard Time,+10:30
+Australia/Melbourne,Australian Eastern Daylight Time,+11:00
 Australia/Melbourne,Australian Eastern Standard Time,+10:00
+Australia/NSW,Australian Eastern Daylight Time (New South Wales),+11:00
 Australia/NSW,Australian Eastern Standard Time (New South Wales),+10:00
 Australia/North,Australian Central Standard Time (Northern Territory),+9:30
 Australia/Perth,Australian Western Standard Time,+8:00
 Australia/Queensland,Australian Eastern Standard Time (Queensland),+10:00
+Australia/South,Australian Central Daylight Time (South Australia),+10:30
 Australia/South,Australian Central Standard Time (South Australia),+9:30
+Australia/Sydney,Australian Eastern Daylight Time,+11:00
 Australia/Sydney,Australian Eastern Standard Time,+10:00
+Australia/Tasmania,Australian Eastern Daylight Time (Tasmania),+11:00
 Australia/Tasmania,Australian Eastern Standard Time (Tasmania),+10:00
+Australia/Victoria,Australian Eastern Daylight Time (Victoria),+11:00
 Australia/Victoria,Australian Eastern Standard Time (Victoria),+10:00
 Australia/West,Australian Western Standard Time,+8:00
+Australia/Yancowinna,Australian Central Daylight Time (South Australia/New South Wales),+10:30
 Australia/Yancowinna,Australian Central Standard Time (South Australia/New South Wales),+9:30
+BET,Brasilia Summer Time,-2:00
 BET,Brasilia Time,-3:00
 BST,Bangladesh Time,+6:00
 Brazil/Acre,Acre Time,-5:00
 Brazil/DeNoronha,Fernando de Noronha Time,-2:00
+Brazil/East,Brasilia Summer Time,-2:00
 Brazil/East,Brasilia Time,-3:00
 Brazil/West,Amazon Time,-4:00
 CAT,Central African Time,+2:00
