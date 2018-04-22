@@ -35,7 +35,7 @@ Africa/Harare,Central African Time,+2:00
 Africa/Johannesburg,South Africa Standard Time,+2:00
 Africa/Juba,Eastern African Time,+3:00
 Africa/Kampala,Eastern African Time,+3:00
-Africa/Khartoum,Eastern African Time,+3:00
+Africa/Khartoum,Central African Time,+2:00
 Africa/Kigali,Central African Time,+2:00
 Africa/Kinshasa,Western African Time,+1:00
 Africa/Lagos,Western African Time,+1:00
@@ -56,11 +56,11 @@ Africa/Niamey,Western African Time,+1:00
 Africa/Nouakchott,Greenwich Mean Time,+0:00
 Africa/Ouagadougou,Greenwich Mean Time,+0:00
 Africa/Porto-Novo,Western African Time,+1:00
-Africa/Sao_Tome,Greenwich Mean Time,+0:00
+Africa/Sao_Tome,Western African Time,+1:00
 Africa/Timbuktu,Greenwich Mean Time,+0:00
 Africa/Tripoli,Eastern European Time,+2:00
 Africa/Tunis,Central European Time,+1:00
-Africa/Windhoek,Western African Time,+1:00
+Africa/Windhoek,Central African Time,+2:00
 America/Adak,Hawaii Daylight Time,-9:00
 America/Adak,Hawaii Standard Time,-10:00
 America/Anchorage,Alaska Daylight Time,-8:00
@@ -141,7 +141,8 @@ America/Godthab,Western Greenland Summer Time,-2:00
 America/Godthab,Western Greenland Time,-3:00
 America/Goose_Bay,Atlantic Daylight Time,-3:00
 America/Goose_Bay,Atlantic Standard Time,-4:00
-America/Grand_Turk,Atlantic Standard Time,-4:00
+America/Grand_Turk,Atlantic Daylight Time,-4:00
+America/Grand_Turk,Atlantic Standard Time,-5:00
 America/Grenada,Atlantic Standard Time,-4:00
 America/Guadeloupe,Atlantic Standard Time,-4:00
 America/Guatemala,Central Standard Time,-6:00
@@ -262,6 +263,7 @@ America/Rosario,Argentine Time,-3:00
 America/Santa_Isabel,Pacific Daylight Time,-7:00
 America/Santa_Isabel,Pacific Standard Time,-8:00
 America/Santarem,Brasilia Time,-3:00
+America/Santiago,Chile Summer Time,-3:00
 America/Santiago,Chile Time,-4:00
 America/Santo_Domingo,Atlantic Standard Time,-4:00
 America/Sao_Paulo,Brasilia Time,-3:00
@@ -347,6 +349,7 @@ Asia/Dhaka,Bangladesh Time,+6:00
 Asia/Dili,Timor-Leste Time,+9:00
 Asia/Dubai,Gulf Standard Time,+4:00
 Asia/Dushanbe,Tajikistan Time,+5:00
+Asia/Famagusta,GMT+02:00,+2:00
 Asia/Famagusta,GMT+03:00,+3:00
 Asia/Gaza,Eastern European Summer Time,+3:00
 Asia/Gaza,Eastern European Time,+2:00
@@ -484,7 +487,6 @@ Canada/Atlantic,Atlantic Daylight Time,-3:00
 Canada/Atlantic,Atlantic Standard Time,-4:00
 Canada/Central,Central Daylight Time,-5:00
 Canada/Central,Central Standard Time,-6:00
-Canada/East-Saskatchewan,Central Standard Time,-6:00
 Canada/Eastern,Eastern Daylight Time,-4:00
 Canada/Eastern,Eastern Standard Time,-5:00
 Canada/Mountain,Mountain Daylight Time,-6:00
@@ -496,7 +498,9 @@ Canada/Pacific,Pacific Standard Time,-8:00
 Canada/Saskatchewan,Central Standard Time,-6:00
 Canada/Yukon,Pacific Daylight Time,-7:00
 Canada/Yukon,Pacific Standard Time,-8:00
+Chile/Continental,Chile Summer Time,-3:00
 Chile/Continental,Chile Time,-4:00
+Chile/EasterIsland,Easter Is. Summer Time,-5:00
 Chile/EasterIsland,Easter Is. Time,-6:00
 Cuba,Cuba Daylight Time,-4:00
 Cuba,Cuba Standard Time,-5:00
@@ -725,6 +729,7 @@ Pacific/Auckland,New Zealand Standard Time,+12:00
 Pacific/Bougainville,Bougainville Standard Time,+11:00
 Pacific/Chatham,Chatham Standard Time,+12:45
 Pacific/Chuuk,Chuuk Time,+10:00
+Pacific/Easter,Easter Is. Summer Time,-5:00
 Pacific/Easter,Easter Is. Time,-6:00
 Pacific/Efate,Vanuatu Time,+11:00
 Pacific/Enderbury,Phoenix Is. Time,+13:00
@@ -771,23 +776,17 @@ ROK,Korea Standard Time,+9:00
 SST,Solomon Is. Time,+11:00
 Singapore,Singapore Time,+8:00
 SystemV/AST4,Atlantic Standard Time,-4:00
-SystemV/AST4ADT,Atlantic Daylight Time,-3:00
 SystemV/AST4ADT,Atlantic Standard Time,-4:00
 SystemV/CST6,Central Standard Time,-6:00
-SystemV/CST6CDT,Central Daylight Time,-5:00
 SystemV/CST6CDT,Central Standard Time,-6:00
 SystemV/EST5,Eastern Standard Time,-5:00
-SystemV/EST5EDT,Eastern Daylight Time,-4:00
 SystemV/EST5EDT,Eastern Standard Time,-5:00
 SystemV/HST10,Hawaii Standard Time,-10:00
 SystemV/MST7,Mountain Standard Time,-7:00
-SystemV/MST7MDT,Mountain Daylight Time,-6:00
 SystemV/MST7MDT,Mountain Standard Time,-7:00
 SystemV/PST8,Pacific Standard Time,-8:00
-SystemV/PST8PDT,Pacific Daylight Time,-7:00
 SystemV/PST8PDT,Pacific Standard Time,-8:00
 SystemV/YST9,Alaska Standard Time,-9:00
-SystemV/YST9YDT,Alaska Daylight Time,-8:00
 SystemV/YST9YDT,Alaska Standard Time,-9:00
 Turkey,Eastern European Time,+3:00
 UCT,Coordinated Universal Time,+0:00
