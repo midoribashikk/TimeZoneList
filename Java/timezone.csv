@@ -1,8 +1,8 @@
-ACT,Australian Central Standard Time (Northern Territory),+9:30
-AET,Australian Eastern Daylight Time (New South Wales),+11:00
-AET,Australian Eastern Standard Time (New South Wales),+10:00
+ACT,Australian Central Standard Time,+9:30
+AET,Australian Eastern Daylight Time,+11:00
+AET,Australian Eastern Standard Time,+10:00
 AGT,Argentine Time,-3:00
-ART,Eastern European Time,+2:00
+ART,Eastern European Standard Time,+2:00
 AST,Alaska Daylight Time,-8:00
 AST,Alaska Standard Time,-9:00
 Africa/Abidjan,Greenwich Mean Time,+0:00
@@ -80,7 +80,7 @@ America/Argentina/Mendoza,Argentina Standard Time,-3:00
 America/Argentina/Rio_Gallegos,Argentina Standard Time,-3:00
 America/Argentina/Salta,Argentina Standard Time,-3:00
 America/Argentina/San_Juan,Argentina Standard Time,-3:00
-America/Argentina/San_Luis,Western Argentina Standard Time,-3:00
+America/Argentina/San_Luis,Argentina Standard Time,-3:00
 America/Argentina/Tucuman,Argentina Standard Time,-3:00
 America/Argentina/Ushuaia,Argentina Standard Time,-3:00
 America/Aruba,Atlantic Standard Time,-4:00
@@ -120,7 +120,8 @@ America/Creston,Mountain Standard Time,-7:00
 America/Cuiaba,Amazon Standard Time,-4:00
 America/Curacao,Atlantic Standard Time,-4:00
 America/Danmarkshavn,Greenwich Mean Time,+0:00
-America/Dawson,Pacific Standard Time,-7:00
+America/Dawson,Pacific Daylight Time,-7:00
+America/Dawson,Pacific Standard Time,-8:00
 America/Dawson_Creek,Mountain Standard Time,-7:00
 America/Denver,Mountain Daylight Time,-6:00
 America/Denver,Mountain Standard Time,-7:00
@@ -298,17 +299,19 @@ America/Tortola,Atlantic Standard Time,-4:00
 America/Vancouver,Pacific Daylight Time,-7:00
 America/Vancouver,Pacific Standard Time,-8:00
 America/Virgin,Atlantic Standard Time,-4:00
-America/Whitehorse,Pacific Standard Time,-7:00
+America/Whitehorse,Pacific Daylight Time,-7:00
+America/Whitehorse,Pacific Standard Time,-8:00
 America/Winnipeg,Central Daylight Time,-5:00
 America/Winnipeg,Central Standard Time,-6:00
 America/Yakutat,Alaska Daylight Time,-8:00
 America/Yakutat,Alaska Standard Time,-9:00
 America/Yellowknife,Mountain Daylight Time,-6:00
 America/Yellowknife,Mountain Standard Time,-7:00
-Antarctica/Casey,Australian Western Standard Time,+8:00
+Antarctica/Casey,Australian Western Standard Time,+11:00
 Antarctica/Davis,Davis Time,+7:00
 Antarctica/DumontDUrville,Dumont-dÅfUrville Time,+10:00
-Antarctica/Macquarie,Macquarie Island Time,+11:00
+Antarctica/Macquarie,Macquarie Island Daylight Time,+11:00
+Antarctica/Macquarie,Macquarie Island Time,+10:00
 Antarctica/Mawson,Mawson Time,+5:00
 Antarctica/McMurdo,New Zealand Daylight Time,+13:00
 Antarctica/McMurdo,New Zealand Standard Time,+12:00
@@ -317,8 +320,8 @@ Antarctica/Rothera,Rothera Time,-3:00
 Antarctica/South_Pole,New Zealand Daylight Time,+13:00
 Antarctica/South_Pole,New Zealand Standard Time,+12:00
 Antarctica/Syowa,Syowa Time,+3:00
+Antarctica/Troll,Central European Summer Time,+2:00
 Antarctica/Troll,Greenwich Mean Time,+0:00
-Antarctica/Troll,Greenwich Mean Time,+2:00
 Antarctica/Vostok,Vostok Time,+6:00
 Arctic/Longyearbyen,Central European Standard Time,+1:00
 Arctic/Longyearbyen,Central European Summer Time,+2:00
@@ -343,7 +346,7 @@ Asia/Bishkek,Kyrgyzstan Time,+6:00
 Asia/Brunei,Brunei Darussalam Time,+8:00
 Asia/Calcutta,India Standard Time,+5:30
 Asia/Chita,Yakutsk Standard Time,+9:00
-Asia/Choibalsan,Choibalsan Standard Time,+8:00
+Asia/Choibalsan,Ulaanbaatar Standard Time,+8:00
 Asia/Chongqing,China Standard Time,+8:00
 Asia/Chungking,China Standard Time,+8:00
 Asia/Colombo,India Standard Time,+5:30
@@ -487,13 +490,13 @@ Australia/Victoria,Australian Eastern Standard Time,+10:00
 Australia/West,Australian Western Standard Time,+8:00
 Australia/Yancowinna,Australian Central Daylight Time,+10:30
 Australia/Yancowinna,Australian Central Standard Time,+9:30
-BET,Brasilia Time,-3:00
-BST,Bangladesh Time,+6:00
+BET,Brasilia Standard Time,-3:00
+BST,Bangladesh Standard Time,+6:00
 Brazil/Acre,Acre Standard Time,-5:00
 Brazil/DeNoronha,Fernando de Noronha Standard Time,-2:00
 Brazil/East,Brasilia Standard Time,-3:00
 Brazil/West,Amazon Standard Time,-4:00
-CAT,Central African Time,+2:00
+CAT,Central Africa Time,+2:00
 CET,Central European Summer Time,+2:00
 CET,Central European Time,+1:00
 CNT,Newfoundland Daylight Time,-2:30
@@ -516,16 +519,17 @@ Canada/Newfoundland,Newfoundland Standard Time,-3:30
 Canada/Pacific,Pacific Daylight Time,-7:00
 Canada/Pacific,Pacific Standard Time,-8:00
 Canada/Saskatchewan,Central Standard Time,-6:00
-Canada/Yukon,Pacific Standard Time,-7:00
+Canada/Yukon,Pacific Daylight Time,-7:00
+Canada/Yukon,Pacific Standard Time,-8:00
 Chile/Continental,Chile Standard Time,-4:00
 Chile/Continental,Chile Summer Time,-3:00
 Chile/EasterIsland,Easter Island Standard Time,-6:00
 Chile/EasterIsland,Easter Island Summer Time,-5:00
 Cuba,Cuba Daylight Time,-4:00
 Cuba,Cuba Standard Time,-5:00
-EAT,Eastern African Time,+3:00
+EAT,East Africa Time,+3:00
+ECT,Central European Standard Time,+1:00
 ECT,Central European Summer Time,+2:00
-ECT,Central European Time,+1:00
 EET,Eastern European Summer Time,+3:00
 EET,Eastern European Time,+2:00
 EST,Eastern Standard Time,-5:00
@@ -535,34 +539,34 @@ Egypt,Eastern European Standard Time,+2:00
 Eire,Greenwich Mean Time,+0:00
 Eire,Irish Standard Time,+1:00
 Etc/GMT+0,Greenwich Mean Time,+0:00
-Etc/GMT+1,GMT-1:00,-1:00
+Etc/GMT+1,GMT-01:00,-1:00
 Etc/GMT+10,GMT-10:00,-10:00
 Etc/GMT+11,GMT-11:00,-11:00
 Etc/GMT+12,GMT-12:00,-12:00
-Etc/GMT+2,GMT-2:00,-2:00
-Etc/GMT+3,GMT-3:00,-3:00
-Etc/GMT+4,GMT-4:00,-4:00
-Etc/GMT+5,GMT-5:00,-5:00
-Etc/GMT+6,GMT-6:00,-6:00
-Etc/GMT+7,GMT-7:00,-7:00
-Etc/GMT+8,GMT-8:00,-8:00
-Etc/GMT+9,GMT-9:00,-9:00
+Etc/GMT+2,GMT-02:00,-2:00
+Etc/GMT+3,GMT-03:00,-3:00
+Etc/GMT+4,GMT-04:00,-4:00
+Etc/GMT+5,GMT-05:00,-5:00
+Etc/GMT+6,GMT-06:00,-6:00
+Etc/GMT+7,GMT-07:00,-7:00
+Etc/GMT+8,GMT-08:00,-8:00
+Etc/GMT+9,GMT-09:00,-9:00
 Etc/GMT,Greenwich Mean Time,+0:00
 Etc/GMT-0,Greenwich Mean Time,+0:00
-Etc/GMT-1,GMT+1:00,+1:00
+Etc/GMT-1,GMT+01:00,+1:00
 Etc/GMT-10,GMT+10:00,+10:00
 Etc/GMT-11,GMT+11:00,+11:00
 Etc/GMT-12,GMT+12:00,+12:00
 Etc/GMT-13,GMT+13:00,+13:00
 Etc/GMT-14,GMT+14:00,+14:00
-Etc/GMT-2,GMT+2:00,+2:00
-Etc/GMT-3,GMT+3:00,+3:00
-Etc/GMT-4,GMT+4:00,+4:00
-Etc/GMT-5,GMT+5:00,+5:00
-Etc/GMT-6,GMT+6:00,+6:00
-Etc/GMT-7,GMT+7:00,+7:00
-Etc/GMT-8,GMT+8:00,+8:00
-Etc/GMT-9,GMT+9:00,+9:00
+Etc/GMT-2,GMT+02:00,+2:00
+Etc/GMT-3,GMT+03:00,+3:00
+Etc/GMT-4,GMT+04:00,+4:00
+Etc/GMT-5,GMT+05:00,+5:00
+Etc/GMT-6,GMT+06:00,+6:00
+Etc/GMT-7,GMT+07:00,+7:00
+Etc/GMT-8,GMT+08:00,+8:00
+Etc/GMT-9,GMT+09:00,+9:00
 Etc/GMT0,Greenwich Mean Time,+0:00
 Etc/Greenwich,Greenwich Mean Time,+0:00
 Etc/UCT,Coordinated Universal Time,+0:00
@@ -600,15 +604,15 @@ Europe/Dublin,Greenwich Mean Time,+0:00
 Europe/Dublin,Irish Standard Time,+1:00
 Europe/Gibraltar,Central European Standard Time,+1:00
 Europe/Gibraltar,Central European Summer Time,+2:00
+Europe/Guernsey,British Summer Time,+1:00
 Europe/Guernsey,Greenwich Mean Time,+0:00
-Europe/Guernsey,Greenwich Mean Time,+1:00
 Europe/Helsinki,Eastern European Standard Time,+2:00
 Europe/Helsinki,Eastern European Summer Time,+3:00
+Europe/Isle_of_Man,British Summer Time,+1:00
 Europe/Isle_of_Man,Greenwich Mean Time,+0:00
-Europe/Isle_of_Man,Greenwich Mean Time,+1:00
 Europe/Istanbul,Turkey Time,+3:00
+Europe/Jersey,British Summer Time,+1:00
 Europe/Jersey,Greenwich Mean Time,+0:00
-Europe/Jersey,Greenwich Mean Time,+1:00
 Europe/Kaliningrad,Eastern European Standard Time,+2:00
 Europe/Kiev,Eastern European Standard Time,+2:00
 Europe/Kiev,Eastern European Summer Time,+3:00
@@ -718,8 +722,8 @@ Kwajalein,Marshall Islands Time,+12:00
 Libya,Eastern European Standard Time,+2:00
 MET,Middle Europe Summer Time,+2:00
 MET,Middle Europe Time,+1:00
-MIT,West Samoa Daylight Time,+14:00
-MIT,West Samoa Standard Time,+13:00
+MIT,Apia Daylight Time,+14:00
+MIT,Apia Standard Time,+13:00
 MST,Mountain Standard Time,-7:00
 MST7MDT,Mountain Daylight Time,-6:00
 MST7MDT,Mountain Standard Time,-7:00
@@ -729,7 +733,7 @@ Mexico/BajaSur,Mexican Pacific Daylight Time,-6:00
 Mexico/BajaSur,Mexican Pacific Standard Time,-7:00
 Mexico/General,Central Daylight Time,-5:00
 Mexico/General,Central Standard Time,-6:00
-NET,Armenia Time,+4:00
+NET,Armenia Standard Time,+4:00
 NST,New Zealand Daylight Time,+13:00
 NST,New Zealand Standard Time,+12:00
 NZ,New Zealand Daylight Time,+13:00
@@ -738,7 +742,7 @@ NZ-CHAT,Chatham Daylight Time,+13:45
 NZ-CHAT,Chatham Standard Time,+12:45
 Navajo,Mountain Daylight Time,-6:00
 Navajo,Mountain Standard Time,-7:00
-PLT,Pakistan Time,+5:00
+PLT,Pakistan Standard Time,+5:00
 PNT,Mountain Standard Time,-7:00
 PRC,China Standard Time,+8:00
 PRT,Atlantic Standard Time,-4:00
@@ -765,7 +769,7 @@ Pacific/Galapagos,Galapagos Time,-6:00
 Pacific/Gambier,Gambier Time,-9:00
 Pacific/Guadalcanal,Solomon Islands Time,+11:00
 Pacific/Guam,Chamorro Standard Time,+10:00
-Pacific/Honolulu,Hawaii Standard Time,-10:00
+Pacific/Honolulu,Hawaii-Aleutian Standard Time,-10:00
 Pacific/Johnston,Hawaii-Aleutian Standard Time,-10:00
 Pacific/Kiritimati,Line Islands Time,+14:00
 Pacific/Kosrae,Kosrae Time,+11:00
@@ -775,8 +779,8 @@ Pacific/Marquesas,Marquesas Time,-9:30
 Pacific/Midway,Samoa Standard Time,-11:00
 Pacific/Nauru,Nauru Time,+12:00
 Pacific/Niue,Niue Time,-11:00
-Pacific/Norfolk,Norfolk Island Time,+11:00
-Pacific/Norfolk,Norfolk Summer Time,+12:00
+Pacific/Norfolk,Norfolk Island Daylight Time,+12:00
+Pacific/Norfolk,Norfolk Island Standard Time,+11:00
 Pacific/Noumea,New Caledonia Standard Time,+11:00
 Pacific/Pago_Pago,Samoa Standard Time,-11:00
 Pacific/Palau,Palau Time,+9:00
@@ -799,7 +803,7 @@ Poland,Central European Summer Time,+2:00
 Portugal,Western European Standard Time,+0:00
 Portugal,Western European Summer Time,+1:00
 ROK,Korean Standard Time,+9:00
-SST,Solomon Is. Time,+11:00
+SST,Solomon Islands Time,+11:00
 Singapore,Singapore Standard Time,+8:00
 SystemV/AST4,Atlantic Standard Time,-4:00
 SystemV/AST4ADT,Atlantic Daylight Time,-3:00
@@ -810,7 +814,7 @@ SystemV/CST6CDT,Central Standard Time,-6:00
 SystemV/EST5,Eastern Standard Time,-5:00
 SystemV/EST5EDT,Eastern Daylight Time,-4:00
 SystemV/EST5EDT,Eastern Standard Time,-5:00
-SystemV/HST10,Hawaii Standard Time,-10:00
+SystemV/HST10,Hawaii-Aleutian Standard Time,-10:00
 SystemV/MST7,Mountain Standard Time,-7:00
 SystemV/MST7MDT,Mountain Daylight Time,-6:00
 SystemV/MST7MDT,Mountain Standard Time,-7:00
@@ -833,7 +837,7 @@ US/East-Indiana,Eastern Daylight Time,-4:00
 US/East-Indiana,Eastern Standard Time,-5:00
 US/Eastern,Eastern Daylight Time,-4:00
 US/Eastern,Eastern Standard Time,-5:00
-US/Hawaii,Hawaii Standard Time,-10:00
+US/Hawaii,Hawaii-Aleutian Standard Time,-10:00
 US/Indiana-Starke,Central Daylight Time,-5:00
 US/Indiana-Starke,Central Standard Time,-6:00
 US/Michigan,Eastern Daylight Time,-4:00
@@ -842,8 +846,6 @@ US/Mountain,Mountain Daylight Time,-6:00
 US/Mountain,Mountain Standard Time,-7:00
 US/Pacific,Pacific Daylight Time,-7:00
 US/Pacific,Pacific Standard Time,-8:00
-US/Pacific-New,Pacific Daylight Time,-7:00
-US/Pacific-New,Pacific Standard Time,-8:00
 US/Samoa,Samoa Standard Time,-11:00
 UTC,Coordinated Universal Time,+0:00
 Universal,Coordinated Universal Time,+0:00
